@@ -7,21 +7,113 @@ export default function Home2() {
         <div className="min-h-screen bg-[#F0F9FF] font-sans text-gray-900">
             <Navbar />
 
-            <main className="pt-32 pb-20">
-                {/* Hero Section */}
-                <section className="text-center max-w-4xl mx-auto px-6 mb-20">
-                    <span className="bg-white px-4 py-1.5 rounded-full text-sm font-medium shadow-sm mb-8 inline-block">
-                        New Feature: AI Charting
-                    </span>
-                    <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6 leading-[1.1]">
-                        Next-Gen Software for<br />Healthcare Efficiency
-                    </h1>
-                    <p className="text-gray-500 text-lg md:text-xl max-w-2xl mx-auto mb-10">
-                        Science-backed wellness programs designed to improve your lifestyle. Take the first step now!
-                    </p>
-                    <button className="bg-[#1A1A1A] text-white px-8 py-4 rounded-full font-bold text-sm hover:bg-black transition-colors">
-                        Start Your Free Trial
-                    </button>
+            <main className="pt-24 pb-20">
+                {/* Hero Section - Two Column Layout */}
+                <section className="max-w-7xl mx-auto px-6 mb-20">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                        {/* Left Column - Content */}
+                        <div>
+                            <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 leading-[1.1] text-gray-900">
+                                NEXT-GEN SOFTWARE FOR HEALTHCARE EFFICIENCY
+                            </h1>
+                            
+                            {/* Badge */}
+                            <div className="flex items-center gap-2 mb-6 pb-6 border-b border-gray-200">
+                                <svg className="w-5 h-5 text-[hsl(var(--primary))]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                                </svg>
+                                <span className="text-sm font-medium text-gray-700">HSA/FSA Accepted</span>
+                            </div>
+                            
+                            {/* Bullet Points */}
+                            <div className="space-y-4 mb-8">
+                                <div className="flex items-start gap-3">
+                                    <svg className="w-5 h-5 text-gray-500 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    <p className="text-gray-700"><span className="font-semibold">Clinically tested,</span> 503a and b certified, US-based compounding pharmacy</p>
+                                </div>
+                                <div className="flex items-start gap-3">
+                                    <svg className="w-5 h-5 text-gray-500 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    <p className="text-gray-700"><span className="font-semibold">Micro-dosing,</span> subQ or IM options available (price does not vary).</p>
+                                </div>
+                                <div className="flex items-start gap-3">
+                                    <svg className="w-5 h-5 text-gray-500 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    <p className="text-gray-700"><span className="font-semibold">Shipped directly to your doorstep</span> - Avoid monthly drop-off errors and missed dosing.</p>
+                                </div>
+                            </div>
+                            
+                            {/* CTA Button */}
+                            <button className="w-full bg-[#1A1A2E] text-white px-8 py-4 rounded-lg font-bold text-sm hover:bg-[#0f0f1a] transition-colors mb-8 uppercase tracking-wide">
+                                Start With a Lab
+                            </button>
+                            
+                            {/* Pricing Card */}
+                            <div className="bg-gray-50 rounded-xl p-5 border border-gray-100">
+                                <div className="flex justify-between items-start">
+                                    <div>
+                                        <p className="text-xs font-bold text-[hsl(var(--primary))] uppercase tracking-wide mb-1">4 Month Kit</p>
+                                        <p className="text-sm text-gray-500 italic">Includes medication & supply. Dosed at 200mg weekly</p>
+                                    </div>
+                                    <div className="text-right">
+                                        <span className="text-3xl font-bold text-gray-900">$200</span>
+                                        <span className="text-gray-400">*</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        {/* Right Column - Image Carousel */}
+                        <div className="relative">
+                            <div className="bg-gradient-to-b from-gray-100 to-gray-200 rounded-3xl p-8 aspect-square flex items-center justify-center relative overflow-hidden">
+                                {/* Product Image Placeholder */}
+                                <div className="relative z-10 flex items-center justify-center">
+                                    <img 
+                                        src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=800" 
+                                        alt="Product" 
+                                        className="max-h-80 object-contain drop-shadow-2xl"
+                                    />
+                                </div>
+                                
+                                {/* Navigation Arrows */}
+                                <button className="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full shadow-lg flex items-center justify-center hover:bg-gray-50 transition-colors">
+                                    <svg className="w-5 h-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                                    </svg>
+                                </button>
+                                <button className="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full shadow-lg flex items-center justify-center hover:bg-gray-50 transition-colors">
+                                    <svg className="w-5 h-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </button>
+                                
+                                {/* Dots Indicator */}
+                                <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2">
+                                    <span className="w-2 h-2 rounded-full bg-gray-800"></span>
+                                    <span className="w-2 h-2 rounded-full bg-gray-300"></span>
+                                    <span className="w-2 h-2 rounded-full bg-gray-300"></span>
+                                </div>
+                            </div>
+                            
+                            {/* Trust Badges */}
+                            <div className="flex items-center justify-center gap-8 mt-6">
+                                <div className="flex items-center gap-2">
+                                    <span className="text-sm font-semibold text-gray-700">Google</span>
+                                    <span className="text-sm text-gray-600">5.0</span>
+                                    <div className="flex text-yellow-400">★★★★★</div>
+                                </div>
+                                <div className="flex items-center gap-2">
+                                    <span className="text-sm font-semibold text-gray-700">★ Trustpilot</span>
+                                    <span className="text-sm text-gray-600">4.9</span>
+                                    <div className="flex text-green-500">★★★★★</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
 
                 {/* Dashboard Preview Section */}
