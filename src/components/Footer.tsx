@@ -1,5 +1,5 @@
 import { Facebook, Linkedin, Pin } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logoWhite from "@/assets/logo-white.png";
 
 export function Footer() {
     return (
@@ -55,7 +55,7 @@ export function Footer() {
 
                         {/* Logo */}
                         <div className="flex items-center">
-                            <img src={logo} alt="Best365Labs" className="h-16" />
+                            <img src={logoWhite} alt="Best365Labs" className="h-16" />
                         </div>
                     </div>
 
