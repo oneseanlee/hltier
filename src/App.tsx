@@ -1,27 +1,15 @@
-
-import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { Features } from './components/Features';
-import { SmartSuggestions } from './components/SmartSuggestions';
-import { DesignedByPros } from './components/DesignedByPros';
-import { Testimonials } from './components/Testimonials';
-import { Insights } from './components/Insights';
-import { CTASection } from './components/CTASection';
-import { Footer } from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Home } from './pages/Home';
+import { Company } from './pages/Company';
 
 function App() {
   return (
-    <div className="min-h-screen bg-white font-sans text-gray-900">
-      <Navbar />
-      <Hero />
-      <Features />
-      <SmartSuggestions />
-      <DesignedByPros />
-      <Testimonials />
-      <Insights />
-      <CTASection />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/company" element={<Company />} />
+      </Routes>
+    </Router>
   );
 }
 
