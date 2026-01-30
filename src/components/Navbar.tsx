@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { cn } from "../lib/utils";
-import { Plus, ChevronDown } from "lucide-react";
+import { ChevronDown } from "lucide-react";
+import logo from "@/assets/logo.png";
 import { AnimatePresence, motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
@@ -53,11 +54,8 @@ export function Navbar() {
                 onMouseLeave={() => setActiveMenu(null)}
             >
                 {/* Logo */}
-                <Link to="/" className="flex items-center gap-2">
-                    <div className="bg-blue-600 text-white p-1.5 rounded-lg">
-                        <Plus size={24} strokeWidth={4} />
-                    </div>
-                    <span className="text-2xl font-bold text-gray-900 tracking-tight">Healthier</span>
+                <Link to="/" className="flex items-center">
+                    <img src={logo} alt="Best365Labs" className="h-8" />
                 </Link>
 
                 {/* Links */}
