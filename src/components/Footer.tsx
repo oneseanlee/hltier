@@ -74,7 +74,7 @@ export function Footer() {
                                     placeholder="Enter your email address"
                                     className="bg-transparent border-none focus:ring-0 text-white placeholder-gray-500 flex-1 outline-none text-sm py-2 min-w-0"
                                 />
-                                <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-xs font-bold transition-colors whitespace-nowrap ml-2">
+                                <button className="bg-[hsl(var(--primary))] hover:bg-[hsl(191,100%,38%)] text-white px-6 py-3 rounded-full text-xs font-bold transition-colors whitespace-nowrap ml-2">
                                     Start Your Free Trial &gt;
                                 </button>
                             </div>
