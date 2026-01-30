@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export function Testimonials() {
     return (
-        <section className="bg-blue-600 py-32 rounded-[3rem] mx-4 md:mx-8 mb-20 text-center relative overflow-hidden">
+        <section className="bg-[hsl(var(--primary))] py-32 rounded-[3rem] mx-4 md:mx-8 mb-20 text-center relative overflow-hidden">
             <div className="max-w-4xl mx-auto px-6 relative z-10">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
@@ -43,7 +43,7 @@ export function Testimonials() {
                             className="bg-white rounded-3xl p-8 py-12 shadow-xl"
                         >
                             <div className="flex justify-center mb-6">
-                                <ShieldCheck size={32} className="text-blue-600" />
+                                <ShieldCheck size={32} className="text-[hsl(var(--primary))]" />
                             </div>
                             <div className="text-5xl font-bold text-gray-900 mb-2">68K</div>
                             <div className="text-xs text-gray-500 font-medium uppercase tracking-wide">Trusted by Healthcare</div>
@@ -58,7 +58,7 @@ export function Testimonials() {
                             className="bg-white rounded-3xl p-8 py-12 shadow-xl"
                         >
                             <div className="flex justify-center mb-6">
-                                <Star size={32} className="text-blue-600 fill-blue-600" />
+                                <Star size={32} className="text-[hsl(var(--primary))] fill-[hsl(var(--primary))]" />
                             </div>
                             <div className="text-5xl font-bold text-gray-900 mb-2">1.2M</div>
                             <div className="text-xs text-gray-500 font-medium uppercase tracking-wide">User satisfaction rate</div>
@@ -73,7 +73,7 @@ export function Testimonials() {
                             className="bg-white rounded-3xl p-8 py-12 shadow-xl"
                         >
                             <div className="flex justify-center mb-6">
-                                <BriefcaseMedical size={32} className="text-blue-600" />
+                                <BriefcaseMedical size={32} className="text-[hsl(var(--primary))]" />
                             </div>
                             <div className="text-5xl font-bold text-gray-900 mb-2">1200</div>
                             <div className="text-xs text-gray-500 font-medium uppercase tracking-wide">User satisfaction rate</div>
