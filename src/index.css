@@ -2,12 +2,11 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand: #00add7;
-  --color-brand-50: #e6f9fc;
-  --color-brand-100: #ccf3f9;
-  --color-brand-500: #00add7;
-  --color-brand-600: #009bc2;
-  --color-brand-700: #0089ad;
+  --color-brand-50: #eff6ff;
+  --color-brand-100: #dbeafe;
+  --color-brand-500: #3b82f6;
+  --color-brand-600: #2563eb;
+  --color-brand-700: #1d4ed8;
   --color-background: #FFFFFF;
   --color-foreground: #0F172A;
 
@@ -30,8 +29,6 @@
 :root {
   --background: 0 0% 100%;
   --foreground: 222.2 84% 4.9%;
-  --primary: 191 100% 42%;
-  --primary-foreground: 0 0% 100%;
 }
 
 body {

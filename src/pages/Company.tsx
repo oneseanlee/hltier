@@ -35,7 +35,7 @@ export function Company() {
             <Navbar />
 
             {/* Hero Section */}
-            <section className="bg-gradient-to-b from-brand-500 to-brand-500/70 pt-40 pb-32 text-center text-white rounded-b-[50px] mb-20">
+            <section className="bg-gradient-to-b from-[#1A75E8] to-[#6BA6F1] pt-40 pb-32 text-center text-white rounded-b-[50px] mb-20">
                 <div className="max-w-4xl mx-auto px-6">
                     <h1 className="text-6xl font-bold mb-6 tracking-tight">Company</h1>
                 </div>
@@ -127,37 +127,37 @@ export function Company() {
                 <h2 className="text-4xl font-bold text-center mb-16">Built for clinicians, designed for impact</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {/* Card 1 */}
-                    <div className="bg-brand-50 p-10 rounded-[40px]">
+                    <div className="bg-[#EFF6FF] p-10 rounded-[40px]">
                         <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center mb-6 shadow-sm">
-                            <Check className="text-brand-500" />
+                            <Check className="text-blue-600" />
                         </div>
                         <h3 className="text-xl font-bold mb-4">Streamline Patient Care</h3>
                         <p className="text-gray-600 text-sm mb-8">Maintain consistency in all systems at all times. Timely updates ensure smooth.</p>
-                        <p className="text-xs text-gray-500 leading-relaxed border-t border-brand-100 pt-6">
+                        <p className="text-xs text-gray-500 leading-relaxed border-t border-blue-200 pt-6">
                             We simplify scheduling, charting, and follow-ups so providers can focus more on care and less on paperwork.
                         </p>
                     </div>
 
                     {/* Card 2 */}
-                    <div className="bg-brand-50 p-10 rounded-[40px]">
+                    <div className="bg-[#EFF6FF] p-10 rounded-[40px]">
                         <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center mb-6 shadow-sm">
-                            <Check className="text-brand-500" />
+                            <Check className="text-blue-600" />
                         </div>
                         <h3 className="text-xl font-bold mb-4">"Effortless Care"</h3>
                         <p className="text-gray-600 text-sm mb-8">Keep all records accurate and in sync across systems. Update promptly.</p>
-                        <p className="text-xs text-gray-500 leading-relaxed border-t border-brand-100 pt-6">
+                        <p className="text-xs text-gray-500 leading-relaxed border-t border-blue-200 pt-6">
                             From digital forms to AI-powered notes, we automate routine tasks to save your team hours every day.
                         </p>
                     </div>
 
                     {/* Card 3 */}
-                    <div className="bg-brand-50 p-10 rounded-[40px]">
+                    <div className="bg-[#EFF6FF] p-10 rounded-[40px]">
                         <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center mb-6 shadow-sm">
-                            <Check className="text-brand-500" />
+                            <Check className="text-blue-600" />
                         </div>
                         <h3 className="text-xl font-bold mb-4">Streamline Patient Care</h3>
                         <p className="text-gray-600 text-sm mb-8">Ensure real-time updates across all platforms. Everyone is responsible.</p>
-                        <p className="text-xs text-gray-500 leading-relaxed border-t border-brand-100 pt-6">
+                        <p className="text-xs text-gray-500 leading-relaxed border-t border-blue-200 pt-6">
                             Our platform protects patient data with end-to-end encryption, HIPAA compliance, and secure user access.
                         </p>
                     </div>
@@ -173,7 +173,7 @@ export function Company() {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     {/* Member 1 */}
                     <div className="group">
-                        <div className="bg-brand-100 rounded-[32px] overflow-hidden mb-4 aspect-[4/5]">
+                        <div className="bg-blue-100 rounded-[32px] overflow-hidden mb-4 aspect-[4/5]">
                             <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600" alt="Dr. Jonathan Blake" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300" />
                         </div>
                         <h4 className="font-bold text-lg">Dr. Jonathan Blake</h4>
@@ -182,7 +182,7 @@ export function Company() {
 
                     {/* Member 2 */}
                     <div className="group">
-                        <div className="bg-brand-100 rounded-[32px] overflow-hidden mb-4 aspect-[4/5]">
+                        <div className="bg-blue-100 rounded-[32px] overflow-hidden mb-4 aspect-[4/5]">
                             <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=600" alt="Daniel Hayes" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300" />
                         </div>
                         <h4 className="font-bold text-lg">Daniel Hayes</h4>
@@ -191,7 +191,7 @@ export function Company() {
 
                     {/* Member 3 */}
                     <div className="group">
-                        <div className="bg-brand-100 rounded-[32px] overflow-hidden mb-4 aspect-[4/5]">
+                        <div className="bg-blue-100 rounded-[32px] overflow-hidden mb-4 aspect-[4/5]">
                             <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=600" alt="James Carter" className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300" />
                         </div>
                         <h4 className="font-bold text-lg">James Carter</h4>
@@ -199,10 +199,10 @@ export function Company() {
                     </div>
 
                     {/* Info Card - Moved into grid */}
-                    <div className="bg-brand-50 p-8 rounded-[32px] flex flex-col justify-center aspect-[4/5]">
+                    <div className="bg-[#EFF6FF] p-8 rounded-[32px] flex flex-col justify-center aspect-[4/5]">
                         <h4 className="font-bold text-lg mb-4">Nothing great is made alone</h4>
                         <p className="text-sm text-gray-500 mb-8 leading-relaxed">Reduce costs, scale effortlessly, and make your business come alive.</p>
-                        <button className="bg-white px-6 py-3 rounded-full text-sm font-bold shadow-sm hover:shadow transition-shadow w-fit text-brand-500">Learn More</button>
+                        <button className="bg-white px-6 py-3 rounded-full text-sm font-bold shadow-sm hover:shadow transition-shadow w-fit text-blue-600">Learn More</button>
                     </div>
                 </div>
             </section>

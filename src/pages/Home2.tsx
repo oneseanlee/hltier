@@ -4,7 +4,7 @@ import { CTASection } from "../components/CTASection";
 
 export default function Home2() {
     return (
-        <div className="min-h-screen bg-brand-50 font-sans text-gray-900">
+        <div className="min-h-screen bg-[#F0F9FF] font-sans text-gray-900">
             <Navbar />
 
             <main className="pt-32 pb-20">
@@ -70,7 +70,7 @@ export default function Home2() {
                     <h2 className="text-4xl font-bold text-center mb-16">Intuitive tools that scale with you</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {/* Feature 1 */}
-                        <div className="bg-brand-50 p-8 rounded-[32px] hover:shadow-lg transition-shadow bg-gradient-to-br from-brand-100 via-brand-50 to-white">
+                        <div className="bg-[#EFF6FF] p-8 rounded-[32px] hover:shadow-lg transition-shadow bg-gradient-to-br from-blue-100 via-blue-50 to-white">
                             <div className="mb-8">
                                 <span className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2 block">Smart Scheduling</span>
                                 <h3 className="text-xl font-bold text-gray-900 leading-tight">Verify insurance faster, reduce claim denials</h3>
@@ -112,7 +112,7 @@ export default function Home2() {
                                         <div>
                                             <p className="text-xs text-gray-500 font-medium">Assignee</p>
                                             <div className="flex items-center gap-2 mt-1">
-                                                <div className="w-6 h-6 rounded-full bg-brand-500 flex items-center justify-center text-white text-[10px] font-bold">J</div>
+                                                <div className="w-6 h-6 rounded-full bg-blue-500 flex items-center justify-center text-white text-[10px] font-bold">J</div>
                                                 <p className="text-sm font-semibold text-gray-900">Jonathan</p>
                                             </div>
                                         </div>
@@ -125,7 +125,7 @@ export default function Home2() {
                         </div>
 
                         {/* Feature 2 */}
-                        <div className="bg-brand-50 p-8 rounded-[32px] hover:shadow-lg transition-shadow bg-gradient-to-br from-brand-100 via-brand-50 to-white">
+                        <div className="bg-[#EFF6FF] p-8 rounded-[32px] hover:shadow-lg transition-shadow bg-gradient-to-br from-blue-100 via-blue-50 to-white">
                             <div className="mb-8">
                                 <span className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2 block">Secure Telehealth</span>
                                 <h3 className="text-xl font-bold text-gray-900 leading-tight">Send prescriptions directly to pharmacies, reduce errors</h3>
@@ -141,14 +141,14 @@ export default function Home2() {
                                         <div className="relative w-16 h-16">
                                             <svg viewBox="0 0 36 36" className="w-full h-full transform -rotate-90">
                                                 <path className="text-gray-100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" strokeWidth="4" />
-                                                <path className="text-brand-500" strokeDasharray="75, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" strokeWidth="4" />
+                                                <path className="text-blue-500" strokeDasharray="75, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" strokeWidth="4" />
                                             </svg>
                                             <span className="absolute inset-0 flex items-center justify-center text-[10px] font-bold text-gray-500">75%</span>
                                         </div>
                                         <div>
                                             <p className="text-3xl font-bold text-gray-900">200</p>
                                             <div className="flex gap-2 text-[10px] mt-1">
-                                                <span className="text-brand-500">75% available</span>
+                                                <span className="text-blue-500">75% available</span>
                                             </div>
                                         </div>
                                     </div>
@@ -159,21 +159,21 @@ export default function Home2() {
                                     <div className="flex justify-between items-start mb-2">
                                         <div className="flex items-center gap-2">
                                             <p className="text-sm font-bold text-gray-900">Appointments</p>
-                                            <span className="bg-brand-100 text-brand-500 text-[10px] px-1.5 py-0.5 rounded font-bold">+ 20%</span>
+                                            <span className="bg-blue-100 text-blue-600 text-[10px] px-1.5 py-0.5 rounded font-bold">+ 20%</span>
                                         </div>
                                         <div className="text-gray-400 text-xs">↗</div>
                                     </div>
                                     <div className="flex items-end justify-between">
                                         {/* Simple CSS Line Chart */}
                                         <div className="flex items-end gap-1 h-12 w-24">
-                                            <div className="w-full bg-brand-100/50 rounded-t-sm h-[20%]"></div>
-                                            <div className="w-full bg-brand-100/50 rounded-t-sm h-[40%]"></div>
-                                            <div className="w-full bg-brand-100/50 rounded-t-sm h-[30%]"></div>
-                                            <div className="w-full bg-brand-100/50 rounded-t-sm h-[60%]"></div>
-                                            <div className="w-full bg-brand-500 rounded-t-sm h-[80%]"></div>
+                                            <div className="w-full bg-blue-100/50 rounded-t-sm h-[20%]"></div>
+                                            <div className="w-full bg-blue-100/50 rounded-t-sm h-[40%]"></div>
+                                            <div className="w-full bg-blue-100/50 rounded-t-sm h-[30%]"></div>
+                                            <div className="w-full bg-blue-100/50 rounded-t-sm h-[60%]"></div>
+                                            <div className="w-full bg-blue-500 rounded-t-sm h-[80%]"></div>
                                         </div>
                                         <div className="text-right">
-                                            <p className="text-[10px] text-gray-400">Appointments have<br />increased by <span className="text-brand-500 font-medium">20%</span></p>
+                                            <p className="text-[10px] text-gray-400">Appointments have<br />increased by <span className="text-blue-500 font-medium">20%</span></p>
                                             <p className="text-3xl font-bold text-gray-900 mt-1">160</p>
                                         </div>
                                     </div>
@@ -182,7 +182,7 @@ export default function Home2() {
                         </div>
 
                         {/* Feature 3 */}
-                        <div className="bg-brand-50 p-8 rounded-[32px] hover:shadow-lg transition-shadow bg-gradient-to-br from-brand-100 via-brand-50 to-white">
+                        <div className="bg-[#EFF6FF] p-8 rounded-[32px] hover:shadow-lg transition-shadow bg-gradient-to-br from-blue-100 via-blue-50 to-white">
                             <div className="mb-8">
                                 <span className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2 block">AI-Powered Charting</span>
                                 <h3 className="text-xl font-bold text-gray-900 leading-tight">Automate claim generation, coding suggestions</h3>
