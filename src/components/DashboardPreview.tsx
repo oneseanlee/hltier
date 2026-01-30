@@ -7,7 +7,7 @@ export function DashboardPreview() {
             {/* App Header */}
             <div className="flex items-center justify-between px-6 py-4 border-b border-gray-100 bg-white">
                 <div className="flex items-center gap-2">
-                    <div className="h-8 w-8 bg-blue-600 rounded-lg flex items-center justify-center text-white">
+                    <div className="h-8 w-8 bg-brand-500 rounded-lg flex items-center justify-center text-white">
                         <Activity size={20} />
                     </div>
                     <span className="font-bold text-gray-900 text-lg">Healthier</span>
@@ -19,7 +19,7 @@ export function DashboardPreview() {
                         <input
                             type="text"
                             placeholder="Search anything..."
-                            className="pl-10 pr-4 py-2 bg-gray-50 rounded-full text-sm w-64 focus:outline-none focus:ring-2 focus:ring-blue-100 placeholder-gray-400"
+                            className="pl-10 pr-4 py-2 bg-gray-50 rounded-full text-sm w-64 focus:outline-none focus:ring-2 focus:ring-brand-100 placeholder-gray-400"
                         />
                     </div>
                     <div className="flex items-center gap-3 text-gray-400">
@@ -86,17 +86,17 @@ export function DashboardPreview() {
                                 <h3 className="font-bold text-gray-900">Total Appointments</h3>
                                 <div className="flex gap-4 text-sm">
                                     <span className="flex items-center gap-2 text-gray-500"><span className="w-2 h-2 rounded-full bg-gray-300"></span> Pending</span>
-                                    <span className="flex items-center gap-2 text-gray-900"><span className="w-2 h-2 rounded-full bg-blue-500"></span> Completed</span>
+                                    <span className="flex items-center gap-2 text-gray-900"><span className="w-2 h-2 rounded-full bg-brand-500"></span> Completed</span>
                                 </div>
                             </div>
                             <div className="h-64 flex items-end justify-between gap-2 px-2">
                                 {/* CSS Chart Simulation */}
                                 <svg viewBox="0 0 100 40" className="w-full h-full overflow-visible">
-                                    <path d="M0,35 Q10,25 20,30 T40,25 T60,10 T80,20 T100,5" fill="none" stroke="#3B82F6" strokeWidth="2" />
+                                    <path d="M0,35 Q10,25 20,30 T40,25 T60,10 T80,20 T100,5" fill="none" stroke="#00ADD7" strokeWidth="2" />
                                     <path d="M0,35 Q10,25 20,30 T40,25 T60,10 T80,20 T100,5 V40 H0 Z" fill="url(#gradient)" opacity="0.1" />
                                     <defs>
                                         <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
-                                            <stop offset="0%" stopColor="#3B82F6" />
+                                            <stop offset="0%" stopColor="#00ADD7" />
                                             <stop offset="100%" stopColor="#FFFFFF" stopOpacity="0" />
                                         </linearGradient>
                                     </defs>
@@ -115,7 +115,7 @@ export function DashboardPreview() {
                                             </div>
                                         )}
                                         <div
-                                            className={`w-full rounded-t-lg transition-all duration-300 ${i === 3 ? 'bg-blue-600' : 'bg-gray-200 hover:bg-gray-300'}`}
+                                            className={`w-full rounded-t-lg transition-all duration-300 ${i === 3 ? 'bg-brand-500' : 'bg-gray-200 hover:bg-gray-300'}`}
                                             style={{ height: `${h}%` }}
                                         ></div>
                                         <span className="text-xs text-gray-400">

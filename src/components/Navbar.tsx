@@ -106,8 +106,8 @@ export function Navbar() {
                                                     key={linkIdx}
                                                     to={path}
                                                     className={cn(
-                                                        "text-[15px] transition-colors hover:text-blue-600 block",
-                                                        isHighlight ? "text-blue-600 font-semibold" : "text-gray-500 font-medium"
+                                                        "text-[15px] transition-colors hover:text-brand-500 block",
+                                                        isHighlight ? "text-brand-500 font-semibold" : "text-gray-500 font-medium"
                                                     )}
                                                 >
                                                     {name}
