@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export function Hero() {
     return (
-        <div className="relative pt-32 pb-20 overflow-hidden bg-gradient-to-b from-blue-50/50 via-white to-white">
+        <div className="relative pt-32 pb-20 overflow-hidden bg-gradient-to-b from-brand-50/50 via-white to-white">
             {/* Background decoration (simple sky/nature hint) */}
             <div className="absolute inset-x-0 top-0 h-[600px] bg-gradient-to-b from-sky-100/40 to-transparent -z-10" />
 
@@ -39,7 +39,7 @@ export function Hero() {
                     transition={{ duration: 0.6, delay: 0.4 }}
                     className="flex items-center justify-center gap-4 mb-20"
                 >
-                    <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3.5 rounded-full font-semibold transition-all shadow-lg shadow-blue-600/20 flex items-center gap-2 hover:gap-3 cursor-pointer">
+                    <button className="bg-brand-500 hover:bg-brand-600 text-white px-8 py-3.5 rounded-full font-semibold transition-all shadow-lg shadow-brand-500/20 flex items-center gap-2 hover:gap-3 cursor-pointer">
                         Start Your Free Trial <ChevronRight size={18} />
                     </button>
                 </motion.div>

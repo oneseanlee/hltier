@@ -61,9 +61,9 @@ export function Features() {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: 0.1 }}
-                        className="bg-[#EFF6FF] rounded-[32px] p-10 flex flex-col justify-between h-full min-h-[450px] hover:shadow-lg transition-shadow border border-blue-50/50"
+                        className="bg-brand-50 rounded-[32px] p-10 flex flex-col justify-between h-full min-h-[450px] hover:shadow-lg transition-shadow border border-brand-50/50"
                     >
-                        <div className="w-14 h-14 bg-gradient-to-br from-blue-400 to-blue-500 rounded-full flex items-center justify-center text-white shadow-lg shadow-blue-200/50">
+                        <div className="w-14 h-14 bg-gradient-to-br from-brand-500 to-brand-600 rounded-full flex items-center justify-center text-white shadow-lg shadow-brand-100/50">
                             <MessageSquare size={24} fill="currentColor" className="text-white" />
                         </div>
                         <div>
@@ -82,7 +82,7 @@ export function Features() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: 0.2 }}
-                            className="bg-[#EFF6FF] rounded-[32px] p-10 flex flex-col justify-center text-left hover:shadow-lg transition-shadow border border-blue-50/50 h-[200px]"
+                            className="bg-brand-50 rounded-[32px] p-10 flex flex-col justify-center text-left hover:shadow-lg transition-shadow border border-brand-50/50 h-[200px]"
                         >
                             <h3 className="text-2xl font-bold text-gray-900 mb-3 tracking-tight">Predictive analytics</h3>
                             <p className="text-gray-500 leading-relaxed text-[15px] font-medium">
@@ -96,7 +96,7 @@ export function Features() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: 0.3 }}
-                            className="bg-[#EFF6FF] rounded-[32px] p-6 flex-1 hover:shadow-lg transition-shadow overflow-hidden relative border border-blue-50/50 min-h-[225px]"
+                            className="bg-brand-50 rounded-[32px] p-6 flex-1 hover:shadow-lg transition-shadow overflow-hidden relative border border-brand-50/50 min-h-[225px]"
                         >
                             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-5 w-full h-full max-w-[320px] mx-auto">
                                 <div className="flex justify-between items-center mb-5 pb-3 border-b border-gray-50">
@@ -107,7 +107,7 @@ export function Features() {
                                     <div>
                                         <label className="text-[11px] text-gray-400 font-semibold uppercase tracking-wider mb-2 block">Services</label>
                                         <div className="flex flex-wrap gap-2">
-                                            <span className="bg-white text-blue-600 text-xs px-3 py-1.5 rounded-full border border-blue-200 font-semibold shadow-sm">Check Up</span>
+                                            <span className="bg-white text-brand-500 text-xs px-3 py-1.5 rounded-full border border-brand-100 font-semibold shadow-sm">Check Up</span>
                                             <span className="text-gray-500 text-xs px-3 py-1.5 border border-gray-100 rounded-full bg-gray-50/50">Monitoring</span>
                                             <span className="text-gray-500 text-xs px-3 py-1.5 border border-gray-100 rounded-full bg-gray-50/50">Driver</span>
                                         </div>
@@ -133,9 +133,9 @@ export function Features() {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: 0.4 }}
-                        className="bg-[#EFF6FF] rounded-[32px] p-10 flex flex-col justify-between h-full min-h-[450px] hover:shadow-lg transition-shadow border border-blue-50/50"
+                        className="bg-brand-50 rounded-[32px] p-10 flex flex-col justify-between h-full min-h-[450px] hover:shadow-lg transition-shadow border border-brand-50/50"
                     >
-                        <div className="w-14 h-14 bg-gradient-to-br from-blue-400 to-blue-500 rounded-full flex items-center justify-center text-white shadow-lg shadow-blue-200/50">
+                        <div className="w-14 h-14 bg-gradient-to-br from-brand-500 to-brand-600 rounded-full flex items-center justify-center text-white shadow-lg shadow-brand-100/50">
                             <Box size={24} className="text-white" />
                         </div>
                         <div>

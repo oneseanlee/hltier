@@ -21,18 +21,18 @@ export function DesignedByPros() {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: 0.2 }}
-                        className="bg-blue-50/50 rounded-3xl p-12 text-center flex flex-col items-center hover:shadow-lg transition-shadow"
+                        className="bg-brand-50/50 rounded-3xl p-12 text-center flex flex-col items-center hover:shadow-lg transition-shadow"
                     >
                         {/* Visual Illustration */}
                         <div className="mb-12 h-48 w-full flex items-center justify-center relative">
                             {/* Simplified CSS representation of the connecting nodes */}
                             <div className="relative flex items-center gap-4">
                                 {/* Dashed line */}
-                                <div className="absolute top-1/2 left-0 right-0 h-0.5 border-t-2 border-dashed border-blue-200 -z-10" />
+                                <div className="absolute top-1/2 left-0 right-0 h-0.5 border-t-2 border-dashed border-brand-100 -z-10" />
 
                                 <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center text-gray-400 border border-white shadow-sm"><User size={20} /></div>
                                 <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center text-gray-400 border border-white shadow-sm"><User size={20} /></div>
-                                <div className="w-20 h-20 rounded-full bg-gradient-to-b from-blue-400 to-blue-600 flex items-center justify-center text-white shadow-xl shadow-blue-200 z-10 scale-125">
+                                <div className="w-20 h-20 rounded-full bg-gradient-to-b from-brand-500 to-brand-600 flex items-center justify-center text-white shadow-xl shadow-brand-100 z-10 scale-125">
                                     <User size={32} />
                                     {/* Stars */}
                                     <div className="absolute -top-8 flex gap-1">
@@ -61,25 +61,25 @@ export function DesignedByPros() {
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: 0.2 }}
-                        className="bg-blue-50/50 rounded-3xl p-12 text-center flex flex-col items-center hover:shadow-lg transition-shadow"
+                        className="bg-brand-50/50 rounded-3xl p-12 text-center flex flex-col items-center hover:shadow-lg transition-shadow"
                     >
                         {/* Visual Illustration */}
                         <div className="mb-12 h-48 w-full flex items-center justify-center relative pt-8">
                             {/* Tree structure lines */}
                             <div className="relative">
                                 {/* Main Node */}
-                                <div className="w-20 h-20 rounded-full bg-gradient-to-b from-blue-400 to-blue-600 flex items-center justify-center text-white shadow-xl shadow-blue-200 mx-auto relative z-10 mb-8">
+                                <div className="w-20 h-20 rounded-full bg-gradient-to-b from-brand-500 to-brand-600 flex items-center justify-center text-white shadow-xl shadow-brand-100 mx-auto relative z-10 mb-8">
                                     <Users size={32} />
                                 </div>
 
                                 {/* Horizontal bar */}
-                                <div className="h-16 w-64 border-b-2 border-l-2 border-r-2 border-blue-400/50 rounded-b-3xl absolute top-10 left-1/2 -translate-x-1/2" />
+                                <div className="h-16 w-64 border-b-2 border-l-2 border-r-2 border-brand-500/50 rounded-b-3xl absolute top-10 left-1/2 -translate-x-1/2" />
                                 {/* Vertical connections */}
-                                <div className="absolute top-10 left-1/2 -translate-x-1/2 h-8 w-0.5 bg-blue-400/50" />
-                                <div className="absolute top-26 left-[calc(50%-6rem)] h-4 w-0.5 bg-blue-400/50" />
-                                <div className="absolute top-26 left-[calc(50%+6rem)] h-4 w-0.5 bg-blue-400/50" />
-                                <div className="absolute top-26 left-[calc(50%-2rem)] h-4 w-0.5 bg-blue-400/50" />
-                                <div className="absolute top-26 left-[calc(50%+2rem)] h-4 w-0.5 bg-blue-400/50" />
+                                <div className="absolute top-10 left-1/2 -translate-x-1/2 h-8 w-0.5 bg-brand-500/50" />
+                                <div className="absolute top-26 left-[calc(50%-6rem)] h-4 w-0.5 bg-brand-500/50" />
+                                <div className="absolute top-26 left-[calc(50%+6rem)] h-4 w-0.5 bg-brand-500/50" />
+                                <div className="absolute top-26 left-[calc(50%-2rem)] h-4 w-0.5 bg-brand-500/50" />
+                                <div className="absolute top-26 left-[calc(50%+2rem)] h-4 w-0.5 bg-brand-500/50" />
 
                                 {/* Sub Nodes */}
                                 <div className="flex justify-between w-80 mt-8 relative z-10">

@@ -14,7 +14,7 @@ export function CTASection() {
     const yProgress = useTransform(scrollYProgress, [0, 1], [100, 0]);
 
     return (
-        <section className="bg-blue-50/50 py-32 overflow-hidden text-center">
+        <section className="bg-brand-50/50 py-32 overflow-hidden text-center">
             <div className="max-w-5xl mx-auto px-6 mb-20">
                 <motion.h2
                     initial={{ opacity: 0, y: 30 }}
