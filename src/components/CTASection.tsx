@@ -38,7 +38,7 @@ export function CTASection() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
-                    className="bg-gray-900 hover:bg-black text-white px-8 py-3.5 rounded-full font-semibold transition-all shadow-lg hover:scale-105"
+                    className="bg-[hsl(var(--primary))] hover:bg-[hsl(191,100%,38%)] text-white px-8 py-3.5 rounded-full font-semibold transition-all shadow-lg shadow-[hsl(var(--primary))]/20 hover:scale-105"
                 >
                     Start Your Free Trial
                 </motion.button>
