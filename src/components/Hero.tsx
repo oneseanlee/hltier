@@ -39,7 +39,7 @@ export function Hero() {
                     transition={{ duration: 0.6, delay: 0.4 }}
                     className="flex items-center justify-center gap-4 mb-20"
                 >
-                    <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3.5 rounded-full font-semibold transition-all shadow-lg shadow-blue-600/20 flex items-center gap-2 hover:gap-3 cursor-pointer">
+                    <button className="bg-[hsl(var(--primary))] hover:bg-[hsl(191,100%,38%)] text-white px-8 py-3.5 rounded-full font-semibold transition-all shadow-lg shadow-[hsl(var(--primary))]/20 flex items-center gap-2 hover:gap-3 cursor-pointer">
                         Start Your Free Trial <ChevronRight size={18} />
                     </button>
                 </motion.div>

@@ -29,6 +29,8 @@
 :root {
   --background: 0 0% 100%;
   --foreground: 222.2 84% 4.9%;
+  --primary: 191 100% 42%;
+  --primary-foreground: 0 0% 100%;
 }
 
 body {
