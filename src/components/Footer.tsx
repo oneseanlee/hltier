@@ -1,4 +1,5 @@
 import { Facebook, Linkedin, Pin } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 export function Footer() {
     return (
@@ -53,17 +54,8 @@ export function Footer() {
                         </div>
 
                         {/* Logo */}
-                        <div className="flex items-center gap-6">
-                            <div className="relative w-16 h-16 shrink-0">
-                                {/* Logo Icon */}
-                                <svg width="100%" height="100%" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M30 0C13.4315 0 0 13.4315 0 30H15C15 21.7157 21.7157 15 30 15V0Z" fill="#3B82F6" />
-                                    <path d="M0 30C0 46.5685 13.4315 60 30 60V45C21.7157 45 15 38.2843 15 30H0Z" fill="#3B82F6" />
-                                    <path d="M30 60C46.5685 60 60 46.5685 60 30H45C45 38.2843 38.2843 45 30 45V60Z" fill="#3B82F6" />
-                                    <rect x="30" y="15" width="15" height="15" fill="#3B82F6" />
-                                </svg>
-                            </div>
-                            <span className="text-6xl font-bold text-white tracking-tight">Healthier</span>
+                        <div className="flex items-center">
+                            <img src={logo} alt="Best365Labs" className="h-16" />
                         </div>
                     </div>
 
