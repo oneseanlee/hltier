@@ -74,7 +74,7 @@ export function Navbar() {
                 </div>
 
                 {/* CTA */}
-                <button className="bg-[#1A1A1A] hover:bg-black text-white px-6 py-3 rounded-full text-sm font-semibold transition-all transform hover:scale-105 shadow-lg shadow-gray-200">
+                <button className="bg-[hsl(var(--primary))] hover:bg-[hsl(191,100%,38%)] text-white px-6 py-3 rounded-full text-sm font-semibold transition-all transform hover:scale-105 shadow-lg shadow-[hsl(var(--primary))]/20">
                     Start Your Free Trial
                 </button>
 
